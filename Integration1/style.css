@@ -1,0 +1,35 @@
+span {
+    color: orange;
+}
+
+.coins {
+    position: absolute;
+    align-self: center;
+    top: 5%;
+    padding: 2%;
+    background-color: rgba(128, 128, 128, 0.75);
+    border-radius: 5px;
+}
+
+#wanted:hover .coins {
+    display: none;
+}
+
+img {
+    filter: contrast(65%)
+}
+
+#wanted:hover img {
+    filter: contrast(100%);
+}
+
+th,td {
+    border: solid 1px black;
+}
+h5, p {
+    text-decoration-color: #FFFFFF;
+}
+.image2 {
+    width: 250px;
+    height: 250px;
+}
