@@ -1,0 +1,194 @@
+@font-face {
+    font-family: "aniron";
+    src: url("font/Aniron/anicb___.ttf")
+}  
+
+@font-face {
+    font-family: "symbole";
+    src: url("font/tngan/tngan.ttf")
+}
+
+@font-face {
+    font-family: "business";
+    src: url("font/partyBusiness/partybusiness.ttf")
+}
+
+.container-fluid {
+    background-image: url("img/bg_light.png");
+}
+
+#Contact, #Army, #Ring, #Hunters, #Reward, #Fellows {
+    padding: 2%;
+}
+
+p,small,h4 {
+    font-family: "business", Arial, sans-serif;
+}
+
+h1,h2,h3,h5,h6,a {
+    font-family: "aniron", Arial, sans-serif;
+}
+
+header {
+    background-color: black;
+}
+
+.nav-item .nav-link .active {
+    text-decoration-line: underline;
+}
+
+.flex-sm-fill {
+    color: grey;
+}
+
+.ok {
+    color: darkgrey;
+    border-bottom: 4px solid white);
+    margin-bottom: 2%;
+}
+
+#wanted {
+    background-image: url("img/bg_dark.png");
+}
+
+#wanted .card-body {
+    color: gray;
+}
+
+span {
+    color: black;
+}
+
+.coins {
+    position: absolute;
+    align-self: center;
+    top: 5%;
+    padding: 2%;
+    background-color: rgb(226, 226, 226);
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px rgb(78, 78, 78);
+}
+
+.dead h4 {
+    text-decoration: line-through  black;
+}
+
+.dead .card-text {
+    position: absolute;
+    align-self: center;
+    top: 5%;
+    padding: 2%;
+}
+
+#nom {
+    position: absolute;
+    align-self: center;
+    bottom: 50%;
+    padding: 2%;
+    color: white;
+    font-size: 50px;
+}
+
+img {
+    filter: contrast(65%);
+}
+
+#wanted:hover .card-text {
+    display: none;
+}
+
+
+
+#wanted:hover img {
+    filter: contrast(100%);
+}
+
+#wanted:hover #nom {
+    position: absolute;
+    align-self: center;
+    top: 50%;
+    padding: 2%;
+    color: white;
+    font-size: 20px;
+}
+
+.buttonC {
+    background-color: white;
+    font-family: "business", Arial, sans-serif;
+    color:  black);
+}
+
+#Reward ,#Ring ,#Contact {
+    background-image: url("img/bg_dark.png");
+    color: white;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+#Hunters h3 {
+    font-family: "business", Arial, sans-serif;
+    color: black;
+}
+
+#Hunters a {
+    font-family: "business", Arial, sans-serif;
+    text-decoration: underline;
+    color: black;
+}
+
+#Ring .card {
+    margin-bottom: 2%;
+}
+
+#Ring .card-header {
+    background-color:  black;
+    color: white;
+}
+
+#Ring .card-text , #Ring p {
+    color: black;
+}
+
+th {
+    border-bottom: solid 1px black;
+    color: white;
+    font-family: "aniron", Arial, sans-serif;
+}
+
+td {
+    border-top: solid 1px gray;
+    padding-right: 5%;
+    color: gray;
+    font-family: "aniron", Arial, sans-serif;
+}
+
+cite {
+    font-family: "business", Arial, sans-serif;
+}
+
+.more {
+    font-family: "aniron", Arial, sans-serif;
+    color:  black;
+}
+
+.buttonA {
+    background-image:url("img/bg_dark.png");
+    font-family: "aniron", Arial, sans-serif;
+    color:  grey;
+}
+
+.divA {
+    align-self: center;
+}
+
+
+
+
+footer {
+    background-color: black);
+}
+
+footer a, footer:hover a {
+    text-decoration: none;
+    color: black;
+}
